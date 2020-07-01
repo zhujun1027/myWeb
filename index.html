@@ -10,12 +10,11 @@
 		<p name="pn">lala</p>
 		<p name="pn">lala</p>
 		<script>
-			function getname(){
-				var po=document.getElementsByName("pn");
-				var pi=po[1];
-				pi.innerHTML="bobo";
+			var but1=document.getElementById("but");
+			but1.addEventListener("click",demo);
+			function demo(){
+				alert("hello");
 			}
-			getname();
 		</script>
 	</body>
 </html>
